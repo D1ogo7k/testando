@@ -61,13 +61,19 @@ display: flex;
     background-position: left;
     background-image: url(imagens/fundo-titulo.png);
     background-color: rgb(11, 66, 0);
-    padding: 60px;
+    padding: 80px;
     position: relative;
 }
  #info {
+
     position: absolute;
     left: 3px;
     top: 3px;
-    background-color: rgba(255, 255, 255, 0.582);
+    
     padding: 10px;
  }
+
+#info > h2 {
+    color: rgb(5, 56, 0);
+    text-shadow:0px 0px 2px rgb(255, 255, 255);
+}
