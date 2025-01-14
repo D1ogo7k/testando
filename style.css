@@ -1,0 +1,73 @@
+@charset "UTF 8";
+ 
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(89, 223, 89);
+}
+
+div#logo {
+    width: 100vw;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+ 
+
+}
+
+.logo1 {
+    align-items: center;
+   width: 90vw;
+   height: 20vh;
+}
+nav {
+    padding: 25px;
+    background-color: rgb(255, 255, 255);
+    display: flex ;
+    justify-content: space-between;
+
+}
+nav#menu >li{
+    list-style-type: none;
+    display: inline;
+}
+#menu > li >a {
+     text-decoration: none;
+    color: rgb(0, 43, 0);
+    padding: 13px;
+    background-color: rgb(230, 118, 28);
+    border-radius: 5%;
+    box-shadow: 2px 2px 3px  black;
+
+}
+
+#menu > li> a:hover{
+   padding: 16px;
+    transition: 1s;
+    background-color: darkgreen;
+    color: white;
+}
+
+main {
+  
+}
+div#prlx {
+display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-image: url(imagens/fundo-titulo.png);
+    background-color: rgb(11, 66, 0);
+    padding: 60px;
+    position: relative;
+}
+ #info {
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    background-color: rgba(255, 255, 255, 0.582);
+    padding: 10px;
+ }
