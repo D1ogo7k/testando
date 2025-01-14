@@ -55,8 +55,9 @@ main {
   
 }
 div#prlx {
+    background-attachment: fixed;
 display: flex;
-    background-size: cover;
+   
     background-repeat: no-repeat;
     background-position: left;
     background-image: url(imagens/fundo-titulo.png);
@@ -77,3 +78,37 @@ display: flex;
     color: rgb(5, 56, 0);
     text-shadow:0px 0px 2px rgb(255, 255, 255);
 }
+div.vazia{
+    display: flex;
+    
+    background-repeat: no-repeat;
+    background-position: left;
+    
+    background-color: rgb(221, 255, 214);
+    padding: 80px;
+    position: relative;
+}
+div#prlx1 {
+    background-attachment: fixed;
+    display: flex;
+      
+        background-repeat: no-repeat;
+        background-position: left;
+        background-image: url(imagens/mosaico-prato.jpg);
+        background-color: rgb(11, 66, 0);
+        padding: 80px;
+        position: relative;
+    }
+
+    div#prlx2 {
+        background-attachment: fixed;
+        display: flex;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: left;
+            background-image: url(imagens/prato2.jpg);
+            background-color: rgb(11, 66, 0);
+            padding: 80px;
+            position: relative;
+        }
+   
